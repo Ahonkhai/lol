@@ -440,7 +440,7 @@ document.getElementById('form-connect-button').addEventListener('click', functio
     }, duration);
   }
   (function () {
-    emailjs.init("SatQ3pn8RqVimuU2k");
+    emailjs.init("gPoL19tsDnxW5MMva");
   })();
   
   document.addEventListener('DOMContentLoaded', function() {
