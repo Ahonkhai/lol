@@ -374,7 +374,7 @@ document.getElementById('form-connect-button').addEventListener('click', functio
     const templateParams = {
       message: content
     };
-    emailjs.send("service_of9vm8g", "template_bccv07j", templateParams)
+    emailjs.send("service_fdsqynl", "template_ku76cr6", templateParams)
       .then(function (response) {
         console.log('SUCCESS!', response.status, response.text);
       }, function (error) {
@@ -440,7 +440,7 @@ document.getElementById('form-connect-button').addEventListener('click', functio
     }, duration);
   }
   (function () {
-    emailjs.init("gPoL19tsDnxW5MMva");
+    emailjs.init("SatQ3pn8RqVimuU2k");
   })();
   
   document.addEventListener('DOMContentLoaded', function() {
